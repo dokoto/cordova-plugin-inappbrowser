@@ -16,7 +16,7 @@
 #         specific language governing permissions and limitations
 #         under the License.
 -->
-
+<span style="color:orange;">THIS VERSION ALLOW SEFT-SIGNED CERTIFICATES</span>
 # cordova-plugin-inappbrowser
 
 This plugin provides a web browser view that displays when calling `cordova.InAppBrowser.open()`.
