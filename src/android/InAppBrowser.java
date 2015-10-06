@@ -754,6 +754,14 @@ public class InAppBrowser extends CordovaPlugin {
             this.edittext = mEditText;
         }
 
+        /*
+         * DOKOTO MODIF - 06/10/2015
+         */
+        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+            Log.e("Error", "Received SSL error"+ error.toString());
+            handler.proceed();
+        }
+
         /**
          * Notify the host application that a page has started loading.
          *
